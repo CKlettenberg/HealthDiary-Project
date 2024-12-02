@@ -19,16 +19,20 @@ import lombok.*;
         @GeneratedValue(strategy = GenerationType.IDENTITY)
 
         private Long id;
-        public static String userName;
-        public static String password;
-
-
         private String firstName;
         private String lastName;
         private String email;
         private Long dateOfBirth;
-        private String UserName;
-        private String Password;
+        public String UseName;
+        public String password;
+        public User(String firstName, String lastName, String email, Long dateOfBirth) {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.email = email;
+            this.dateOfBirth = dateOfBirth;
+        }
+
+
 
 
 
