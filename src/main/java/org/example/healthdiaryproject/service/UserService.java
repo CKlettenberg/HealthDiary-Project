@@ -1,4 +1,4 @@
-package org.example.healtdiaryproject.service;
+package org.example.healthdiaryproject.service;
 
 import java.util.HashMap;
 
@@ -22,8 +22,7 @@ public class UserService {
         users.put(username, password);
         return true; // Registration successful
 
-        // Register user - algne
-        // log in
+
         // add user - name , dateOfBirth (not required), age (? automaatne v käsitsi)
 
         // update user
