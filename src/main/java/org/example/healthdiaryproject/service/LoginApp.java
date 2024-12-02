@@ -1,4 +1,4 @@
-package org.example.healtdiaryproject.service;
+package org.example.healthdiaryproject.service;
 
 import java.util.Scanner;
 
@@ -19,13 +19,13 @@ public class LoginApp {
         System.out.println("Teretulemast");
 
         System.out.print("Sisesta kasutajanimi: ");
-        String userName = scanner.nextLine();
+        String username = scanner.nextLine();
 
         System.out.print("Sisesta parool: ");
         String password = scanner.nextLine();
 
-        if (userService.login(userName, password)) {
-            System.out.println("Tere, " + userName + "!");
+        if (userService.login(username, password)) {
+            System.out.println("Tere, " + username + "!");
         } else {
             System.out.println("Vale kasutajatunnus või parool. Palun proovi uuesti!");
 
