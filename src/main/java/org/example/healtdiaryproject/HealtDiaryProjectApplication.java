@@ -10,4 +10,5 @@ public class HealtDiaryProjectApplication {
         SpringApplication.run(HealtDiaryProjectApplication.class, args);
     }
 
+
 }
