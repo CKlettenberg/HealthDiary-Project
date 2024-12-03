@@ -1,4 +1,4 @@
-package org.example.healtdiaryproject.model;
+package org.example.healthdiaryproject.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -23,7 +23,7 @@ import lombok.*;
         private String lastName;
         private String email;
         private Long dateOfBirth;
-        public String UseName;
+        public String Username;
         public String password;
         public User(String firstName, String lastName, String email, Long dateOfBirth) {
             this.firstName = firstName;

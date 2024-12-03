@@ -1,4 +1,4 @@
-package org.example.healtdiaryproject;
+package org.example.healthdiaryproject;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
